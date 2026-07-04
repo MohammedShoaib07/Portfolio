@@ -2,7 +2,7 @@
 
 A minimal, single-page portfolio website built with plain HTML, CSS, and JavaScript. No frameworks, no build step — just open and go.
 
-🔗 **Live site:** [add your Vercel URL here]
+🔗 **Live site:** https://mdshoaibportfolio.vercel.app
 
 ## Overview
 
