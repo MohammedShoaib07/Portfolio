@@ -19,7 +19,13 @@ setInterval(updateClock, 30000);
   const btn = document.getElementById('theme-toggle');
   const key = 'ms-portfolio-theme';
   const saved = localStorage.getItem(key);
-  if (saved === 'dark') document.body.classList.add('dark');
+  const shouldBeDark = saved === 'dark' || saved === null;
+
+  if (shouldBeDark) {
+    document.body.classList.add('dark');
+  } else {
+    document.body.classList.remove('dark');
+  }
 
   if (!btn) return;
 
