@@ -307,6 +307,22 @@ a:focus-visible, button:focus-visible{
   outline-offset: 2px;
 }
 
+/* GITHUB HEATMAP */
+.github-heatmap .github-graph{
+  border: 1px solid var(--border);
+  padding: 14px;
+  border-radius: 12px;
+  background: var(--chip);
+  overflow: auto;
+}
+.github-heatmap .github-graph img{
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+.github-heatmap .small{ font-size: 13px; color: var(--muted); margin-top: 8px; }
+
 /* RESPONSIVE */
 @media (max-width: 600px){
   .page{ padding: 48px 18px 32px; }
