@@ -154,6 +154,8 @@ a{ color: inherit; }
 }
 .logo-a{ background:#1a1a1a; }
 .logo-b{ background:#3a3a3a; }
+.logo-img{ background: var(--chip); overflow:hidden; }
+.logo-img img{ width:100%; height:100%; object-fit:cover; object-position:center; display:block; transform:scale(1.15); }
 
 .exp-title{ margin:0; font-weight:600; font-size:15px; }
 .exp-role{ margin:2px 0 0; color: var(--muted); font-size:14px; }
